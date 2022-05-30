@@ -16,7 +16,7 @@ const mainBody = {
         },
         {
             image: "fa-linkedin",
-            url: "www.linkedin.com/in/miguel-martinr",
+            url: "https://linkedin.com/in/miguel-martinr",
         },
     ],
 };
@@ -38,7 +38,7 @@ const mainBody = {
 const about = {
     show: true,
     heading: "About Me",
-    imageLink: "https://media-exp1.licdn.com/dms/image/C4D03AQE87FVdRJn72w/profile-displayphoto-shrink_200_200/0/1632836897001?e=1659571200&v=beta&t=h9T0y7T0JHKaMgJLzIedJO-NE8_cdICWpxAdbyY9eHY",
+    imageLink: require('../assets/img/me.png'),
     imageSize: 375,
     message: "My name is Miguel Martín. I am currently studying the last year of Computer Engineering at the University of La Laguna (Canary Islands, Spain). I love programming and designing useful and innovative applications that make users feel comfortable and empowered.",
     resume: "https://drive.google.com/file/d/1AIr_l6vqW3JKTy03Tcij186bWqHUT8uR/view?usp=sharing",
@@ -118,7 +118,7 @@ const experiences = {
     show: false,
     heading: "Experiences",
     data: [{
-        role: 'Junior Software Developer (trainee student)', // Here Add Company Name
+        role: 'Junior Software Developer (trainee student) - FreshCommerce Solutions SLU.', // Here Add Company Name
         companylogo: require('../assets/img/logofresh.svg'),
         date: 'March 2022 – Present',
     }, ]
