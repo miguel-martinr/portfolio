@@ -35,9 +35,9 @@ const Project = ({ heading, username, length, specfic }) => {
       repoList = [...response.data.slice(0, length)];
       // adding specified repos
       try {
-        for (let repoName of specfic) {
-          const response = await axios.get(`${specficReposAPI}/${repoName}`);
-          repoList.push(response.data);
+        for (let repo of specfic) {
+          const response = await axios.get(`${specficReposAPI}/${repo.name}`);
+          repoList.push({data: response.data, demo_url: repo.demo_url});
         }
       } catch (error) {
         console.error(error.message);
@@ -64,14 +64,15 @@ const Project = ({ heading, username, length, specfic }) => {
                 <ProjectCard
                   key={`project-card-${index}`}
                   id={`project-card-${index}`}
-                  value={project}
+                  value={project.data}
+                  demo_url={project.demo_url}
                 />
               ))
             : dummyProjectsArr.map((project, index) => (
                 <ProjectCard
                   key={`dummy-${index}`}
                   id={`dummy-${index}`}
-                  value={project}
+                  value={project}                  
                 />
               ))}
         </Row>

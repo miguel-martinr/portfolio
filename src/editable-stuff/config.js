@@ -54,7 +54,13 @@ const repos = {
     heading: "Recent Projects",
     gitHubUsername: "miguel-martinr", //i.e."johnDoe12Gh"
     reposLength: 0,
-    specificRepos: ['matchsic2', 'WhoPays', 'Pycture', 'drawing-app', 'react-redux-drawing-web'],
+    specificRepos: [
+        { name: 'matchsic2', demo_url: 'https://matchsic2.herokuapp.com/home' },
+        { name: 'WhoPays', demo_url: '' },
+        { name: 'Pycture', demo_url: '' },
+        { name: 'drawing-app', demo_url: '' },
+        { name: 'react-redux-drawing-web', demo_url: '' },
+    ],
 };
 
 // Leadership SECTION
