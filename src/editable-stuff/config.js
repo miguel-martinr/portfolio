@@ -121,7 +121,7 @@ const getInTouch = {
 };
 
 const experiences = {
-    show: false,
+    show: true,
     heading: "Experiences",
     data: [{
         role: 'Junior Software Developer (trainee student) - FreshCommerce Solutions SLU.', // Here Add Company Name
