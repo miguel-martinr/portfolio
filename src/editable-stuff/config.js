@@ -55,11 +55,11 @@ const repos = {
     gitHubUsername: "miguel-martinr", //i.e."johnDoe12Gh"
     reposLength: 0,
     specificRepos: [
-        { name: 'matchsic2', demo_url: 'https://matchsic2.herokuapp.com/home' },
-        { name: 'WhoPays', demo_url: '' },
+        { name: 'matchsic2', demo_url: 'https://matchsic2.herokuapp.com/' },
+        { name: 'WhoPays', demo_url: 'http://miguel-martinr.github.io/WhoPays/' },
         { name: 'Pycture', demo_url: '' },
-        { name: 'drawing-app', demo_url: '' },
-        { name: 'react-redux-drawing-web', demo_url: '' },
+        { name: 'drawing-app', demo_url: 'https://miguel-martinr.github.io/drawing-app/' },
+        { name: 'react-redux-drawing-web', demo_url: 'https://miguel-martinr.github.io/react-redux-drawing-web/' },
     ],
 };
 
