@@ -126,7 +126,7 @@ const experiences = {
     data: [{
         role: 'Junior Software Developer (trainee student) - FreshCommerce Solutions SLU.', // Here Add Company Name
         companylogo: require('../assets/img/logofresh.svg'),
-        date: 'March 2022 – Present',
+        date: 'March 2022 – June 2022',
     }, ]
 }
 
