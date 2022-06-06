@@ -18,7 +18,7 @@ const ProjectCard = ({ value, demo_url }) => {
       <Card className="card shadow-lg p-3 mb-5 bg-white rounded">
         <Card.Body>
           <Card.Title as="h5">{name || <Skeleton />} </Card.Title>
-          <Card.Text>{(!description)?"":description || <Skeleton count={3} />} </Card.Text>
+          <Card.Text className="mb-1">{(!description)?"":description || <Skeleton count={3} />} </Card.Text>
           {svn_url ? <CardButtons svn_url={svn_url} demo_url={demo_url}/> : <Skeleton count={2} />}
           <hr />
           {languages_url ? (
@@ -42,15 +42,15 @@ const CardButtons = ({ svn_url, demo_url }) => {
     <>
       <a
         href={`${svn_url}/archive/master.zip`}
-        className="btn btn-outline-secondary mr-3"
+        className="btn btn-outline-secondary mr-1 mt-1"
       >
         <i className="fab fa-github" /> Clone Project
       </a>
-      <a href={svn_url} target=" _blank" className="btn btn-outline-secondary mr-3">
+      <a href={svn_url} target=" _blank" className="btn btn-outline-secondary mr-1 mt-1">
         <i className="fab fa-github" /> Repo
       </a>
       {demo_url ? (
-        <a href={demo_url} target=" _blank" className="btn btn-outline-secondary">
+        <a href={demo_url} target=" _blank" className="btn btn-outline-secondary mt-1">
           <i className="fa fa-rocket" /> Demo
         </a>
       ) : (
