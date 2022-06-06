@@ -41,7 +41,7 @@ const about = {
     imageLink: require('../assets/img/me.png'),
     imageSize: 375,
     message: "My name is Miguel Martín. I am currently studying the last year of Computer Engineering at the University of La Laguna (Canary Islands, Spain). I love programming and designing useful and innovative applications that make users feel comfortable and empowered.",
-    resume: "https://drive.google.com/file/d/1psRpCFvhS7y6veiF5r7HI9KPuR6lmx-d/view?usp=sharing",
+    resume: "https://drive.google.com/file/d/1nhW8yyNQykWvNC91FhrHqyU1mBv_xpov/view?usp=sharing",
 };
 
 // PROJECTS SECTION
