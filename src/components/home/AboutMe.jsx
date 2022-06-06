@@ -1,5 +1,5 @@
 import React from "react";
-import Pdf from "../../editable-stuff/resume.pdf";
+
 
 import axios from "axios";
 
@@ -51,7 +51,7 @@ const AboutMe = ({ heading, message, link, imgSize, resume }) => {
             <h2 className="display-4 mb-5 text-center">{heading}</h2>
             <p className="lead text-center">{message}</p>
             {resume && (
-              
+
               <p className="lead text-center">
                 <a
                   className="btn btn-outline-dark btn-lg"
