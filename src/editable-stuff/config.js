@@ -132,7 +132,7 @@ const experiences = {
     {
       role: 'Software engineer - Atenea Mobility Technologies', 
       companyLogo: require('../assets/img/logoatenea.png'),
-      date: 'September 2022 - Present',
+      date: 'September 2022 - September 2023',
     }
   
   ]
